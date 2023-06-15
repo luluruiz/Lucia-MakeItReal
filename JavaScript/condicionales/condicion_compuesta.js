@@ -17,7 +17,3 @@ if (color == "pink"  || color == "lila"){
 // en la siguiente linea se muestra como se puede resumir el codigo
 num === 100 ? console.log(" el numero es menor o igual a 100") : console.log(" No es menor")  ;
 
-function hello() {
-    console.log("aca invocando");
-}
-hello();
