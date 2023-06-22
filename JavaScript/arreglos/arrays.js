@@ -23,4 +23,4 @@ for( let i = 0; i< array.length; i++ ) {
 // cambiar o reemplazar valores
 
 array[4] = "champi 🍄";
-console.log( "Array modificado: " + array );
+console.log( "Array modificado: " + array  );
