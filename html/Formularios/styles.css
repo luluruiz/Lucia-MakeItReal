@@ -1,0 +1,8 @@
+body {
+    background: rgb(161,156,247);
+    background: linear-gradient(90deg, rgba(161,156,247,1) 0%, rgba(173,173,223,1) 35%, rgba(115,231,255,1) 100%);;
+}
+h1,label{
+    font-family: futura;
+
+}

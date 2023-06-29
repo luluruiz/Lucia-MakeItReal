@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>📝 Formularios</title>
+</head>
+<body> 
+    <h1>Formularios 📝</h1>
+    <!--comments /login es un ejemplo pero llevaria a pagina de registro-->
+    <form action="/login">
+
+       <!--  GET: se utiliza para solicitar un recurso.
+             POST: se utiliza para publicar un recurso.
+             PUT: se utiliza para reemplazar un recurso.
+             DELETE: se utiliza para eliminar un recurso.
+             Existen otros pero estos son los más comunes. --> 
+
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="Nombre"/>
+        <label for="lastname"> Apellido</label>
+        <input type="text" id="lastname" name="Apellido">
+
+        <label for="city"> Ciudad</label>
+        <select id="city" name="city">
+            <option value=""disabled selected> Selecciona tu ciudad </option>
+            <option value="Medellin" selected>Medellin 🍃</option>
+            <option value="Bogota" selected>Bogota 🏙️</option>
+            <option value="Santa Marta" selected>Santa Marta🏝️</option>
+
+        </select>
+        
+        <br/>
+            <label for="comment">Comentario</label>
+            <br/>
+            <textarea id="comment" name="commentario" cols="30" rows="10"
+                placeholder="cometarios aca...."></textarea>
+            </textarea>
+
+
+        </label>
+
+
+
+    </form>
+
+
+    
+</body>
+</html>

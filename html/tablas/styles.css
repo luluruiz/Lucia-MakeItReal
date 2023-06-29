@@ -1,0 +1,20 @@
+table, tr,th, td{
+    border: solid  3px rgba(255, 129, 226, 0.807);
+    border-collapse: collapse;
+    text-align: center; /*-- ejemplos de colspan y rowspan --*/
+    background-color: rgb(130, 255, 255);
+}
+
+th{
+    font-family:  Helvetica, sans-serif;
+    font-size: 15px;
+    width: 100px;
+
+}
+
+tr {
+    height: 40px;
+}
+.hora {
+    font-weight: bold;
+}
