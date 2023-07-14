@@ -1,0 +1,17 @@
+body{
+    background: rgb(228,156,247);
+background: linear-gradient(307deg, rgba(228,156,247,1) 26%, rgba(255,243,188,1) 62%);
+}
+
+.background{
+    height: 800px;
+    width: 1000px;
+    /* background-color: aqua;
+    background-image: url("luneko.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+   background-size: cover;
+   background-attachment: fixed; */
+   background: aqua url("luneko.png") no-repeat center /contain fixed;
+
+}

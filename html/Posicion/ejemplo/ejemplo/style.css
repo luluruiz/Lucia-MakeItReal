@@ -1,0 +1,63 @@
+.container {
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    position: absolute;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(217, 122, 255);
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
+
+.box2{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 120px;
+    right: 0px;
+}
+
+.boxsmile{
+    width: 150px;
+    height: 25px;
+    background-color: rgb(254, 0, 212);
+    position: absolute;
+    top: 300px;
+    right: 0px;
+
+}
+
+.box3{
+    width: 150px;
+    height: 45px;
+    background-color: rgb(254, 0, 0);
+    position: absolute;
+    top: 150px;
+    right: -90px;
+
+}
+.container2{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(9, 9, 9);
+    position: relative;
+    top: 400px;
+    left: 0px;
+
+}
+
+
+
+.texto {
+position: absolute;
+top: 400px;
+right: 550px;
+border-radius: dotted;
+border: dotted  3px rgba(255, 129, 226, 0.807);
+}

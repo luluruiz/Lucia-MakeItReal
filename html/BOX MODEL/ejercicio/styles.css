@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(145, 110, 249);
+}
+
+.block1 { 
+    border: solid #ff0270 2px;
+    padding: 30px;
+    margin: 20px;
+    width: 500px;
+    height: 100px;
+}
+
+.inlineblock {
+    border: solid 2px greenyellow;
+}

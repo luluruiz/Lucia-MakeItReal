@@ -1,0 +1,13 @@
+* {
+    font-size: 30px;
+}
+
+p,a { 
+    color: rgb(223, 65, 255);
+}
+.container p {
+    color: brown;
+}
+a:hover {
+color:#00ff48
+}
